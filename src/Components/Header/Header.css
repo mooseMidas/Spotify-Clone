@@ -1,0 +1,48 @@
+
+.header-container{
+  background-image: linear-gradient(rgba(0,0,0,.6) 0,#121212 100%);
+  position: fixed;
+  z-index: 200; 
+  right: 0;
+  max-width: 100%;
+}
+
+.header-row{
+  margin: 0;
+  padding: 0;
+  height: 3.9rem;
+}
+
+.header-buttons{
+  text-align: right;
+  justify-content: space-between;
+  padding-top: 0.3rem;
+}
+
+.header--sign-up{
+  border: none;
+  color: rgb(161, 161, 161);
+  background-color:transparent;
+  font-weight: bold;
+  padding-right: 1.9rem;
+}
+
+.header--sign-up:hover{
+  color: white;
+  font-size: 16.5px;
+}
+
+.header--login{
+  padding-block: 8px;
+  padding-inline: 32px;
+  min-block-size: 48px;
+  border: 1px;
+  border-radius: 1.6rem;
+  font-weight: bold;
+}
+
+.header--login:hover{
+  font-size: 16.5px;
+} 
+
+/* Most properties were retrieved via DevTools */

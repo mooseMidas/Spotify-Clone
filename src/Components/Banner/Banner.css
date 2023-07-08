@@ -1,0 +1,39 @@
+
+.banner-container{
+  background-image: linear-gradient(90deg,#af2896,#509bf5);
+  position: fixed;
+  bottom: 0;
+  z-index: 200; 
+  max-width: 100%;
+  padding: 0px 24px 0px 15px;
+}
+
+/* z-index ensures component is stacked on top of other components */
+
+.banner--text span{
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.banner--text{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.banner--button{
+  padding: 0;
+}
+
+
+.banner--sign-up{
+  padding-block: 8px;
+  padding-inline: 32px;
+  min-block-size: 48px;
+  border: 1px;
+  border-radius: 1.6rem;
+  font-weight: bold;
+  float:right;
+}
+
+.banner--sign-up:hover{
+  font-size: 16.5px;
+} 

@@ -1,0 +1,91 @@
+ .playlist-col{
+  padding: 0.5rem;
+  min-height: 300px;
+ }
+
+.playlist{
+  width: auto;
+  position: relative;
+  padding: 16px;
+  width: 200px;
+  height: 270px;
+  background-color: #181818;
+  border-radius: 4px;
+  transition: background-color .3s ease;
+  transition-timing-function: linear;
+}
+
+.playlist:hover{
+  background-color: #424242;
+  .playlist--button-container{
+    display: block;
+  }
+}
+
+.playlist--image{
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.5);
+}
+
+.playlist--image-container{
+  position: relative;
+  width: 100%;
+}
+
+.playlist--title{
+  font-size: 16px;
+  padding-top: 0.5rem;
+}
+
+.playlist-description-container{
+  width: 180px;
+}
+
+.playlist--description{
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.playlist--button-container{
+  display: none;
+  left: 80%;
+  top: 80%;
+  color: #181818;
+  font-size: 35px;
+  background-color: #1ed760;
+  padding: 0.4rem;
+  border-radius: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: display 1s;
+  transition-timing-function: linear;
+}
+
+.playlist--button-container:hover{
+  font-size: 37px;
+}
+
+.playlist--button{
+  float: right;
+}
+
+
+ 
+
+
+
+/* How to limit text to n lines with CSS?: Problems & Solutions, Albert Walicki Retrieved on 03 June 2023 from https://albertwalicki.com/learn/solutions/how-to-limit-text-to-n-lines
+ 
+  How TO - Button on Image, How To Add a Button to an Image, Retrieved on 3 June 2023 from https://www.w3schools.com/howto/howto_css_button_on_image.asp
+
+  Display Button on Hover Using HTML and CSS Example, Tutorialdeep Retrieved on 3 June 2023 from https://tutorialdeep.com/knowhow/display-button-on-hover-html-css/#:~:text=Answer%3A%20To%20make%20a%20button,make%20it%20visible%20on%20hover.
+
+*/

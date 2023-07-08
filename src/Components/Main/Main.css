@@ -1,0 +1,40 @@
+.main--container{
+    position: relative;
+    padding-left: 9rem;
+    padding-top: 4.5rem;
+}
+
+.main--section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.main--header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
+    padding-left: 1rem;
+}
+
+.main--link{
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: bold;
+    padding-right: 0;
+}
+
+.main--header:hover, .main--link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main--section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
